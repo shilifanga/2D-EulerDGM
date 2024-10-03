@@ -12,7 +12,7 @@
     parameter(Nx1 = Nx + 1,Ny1 = Ny + 1)
 
     real(8) pi,gamma,gamma1
-      parameter(Lphi = 0)
+    parameter(Lphi = 0)
     parameter(dimPk = (kk + 1)*(kk + 2)/2)
     parameter(dimPk1 = (kk + 1)*(kk + 2)/2)
     parameter(Nphi = max(2*Lphi - 1,0))
@@ -21,8 +21,8 @@
     !parameter(gamma = 5d0/3d0) ! jet
     parameter(gamma1 = gamma - 1)
     parameter(pi = 4*atan(1d0))
-        parameter(NumEq = 4)
-       parameter(RKorder=3)
+    parameter(NumEq = 4)
+    parameter(RKorder=3)
     parameter(limitertypeall = 5)
     real(8) xa,xb,ya,yb,t,dt,tend,CFL,umax,umax1,tRK,t1,t2,alphax,alphay,totaldiv,rij
     real(8) uh(0:Nx1,0:Ny1,0:Nphi,dimPk,NumEq),du(0:Nx1,0:Ny1,0:Nphi,dimPk,NumEq)
