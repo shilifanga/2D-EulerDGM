@@ -6,4 +6,4 @@ To run the MPI code, you need to do the following steps:
 This code can solve the two-dimensional Euler equations, primarily using the Runge-Kutta discontinuous Galerkin method. To control numerical spurious oscillations, the jump filter is employed. 
 Directly running the code, the accuracy of the vortex problem can be obtained, while other test cases can be achieved by setting the initial and boundary values.
 
-The jump filter in the discontinuous Galerkin method for hyperbolic conservation laws.
+The jump filter in the discontinuous Galerkin method for hyperbolic conservation laws. Authors: Lei Wei, Lingling Zhou, and Yinhua Xia.
